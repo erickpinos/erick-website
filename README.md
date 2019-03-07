@@ -1,1 +1,1 @@
-# erick-website
+# Erick's Personal Website
