@@ -24,7 +24,8 @@ function App() {
         <div className="col-12 text-center">
           <h2>Follow Me</h2>
           <p>Stay updated with insights on AI and metaverse startups.</p>
-          <a href="https://twitter.com/erickpinos">Twitter</a> | <a href="https://www.linkedin.com/in/erickpinos/">LinkedIn</a>
+          <a className="social-button" href="https://twitter.com/erickpinos">Twitter</a>
+          <a className="social-button" href="https://www.linkedin.com/in/erickpinos/">LinkedIn</a>
         </div>
       </div>
 
