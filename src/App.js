@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import cryptoCastle  from "./images/crypto-castle.jpg";
 import consensus2019 from './images/consensus-2019.jpg';
 
 function App() {
