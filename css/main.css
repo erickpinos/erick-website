@@ -1,0 +1,89 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  text-align: center;
+  border-bottom: 1px solid #eaeaea;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  margin: 0;
+  color: #333;
+  font-size: 2.5em;
+}
+
+.header h4 {
+  margin-top: 10px;
+  color: #777;
+}
+
+.image-section img {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.follow-section, .about-section, .experience-section, .posts-section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.social-link {
+  margin-right: 10px;
+  color: #0077b5; /* LinkedIn blue color for demonstration */
+  text-decoration: none;
+}
+
+.social-link:hover {
+  text-decoration: underline;
+}
+
+.social-button {
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.twitter-button {
+    background-color: #1DA1F2;
+    color: #FFFFFF;
+}
+
+.linkedin-button {
+    background-color: #0077B5;
+    color: #FFFFFF;
+}
+
+.social-button:hover {
+    opacity: 0.9;
+}
+
+.image-section {
+    display: flex;
+    justify-content: center; /* Horizontally centers the child elements */
+    align-items: center;     /* Vertically centers the child elements */
+}
